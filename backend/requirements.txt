@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+qdrant-client==1.9.0
+python-dotenv
+google-generativeai
+markdown
