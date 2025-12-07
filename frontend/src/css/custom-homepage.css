@@ -1,0 +1,74 @@
+/* Custom Homepage Styles */
+
+/* Hero Banner */
+.custom-hero-banner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(45deg, var(--ifm-color-primary-dark), var(--ifm-color-primary-darker));
+}
+
+.custom-hero-banner .button--outline {
+  color: #fff;
+  border-color: #fff;
+  margin-left: 1rem;
+}
+
+.custom-hero-banner .button--outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Key Features Section */
+.key-features {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.key-features .col {
+  text-align: center;
+}
+
+.key-features h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Chapter Cards Section */
+.chapter-cards-section {
+  padding: 4rem 0;
+}
+
+.chapter-cards-section h2 {
+  margin-bottom: 3rem;
+}
+
+.custom-chapter-card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.custom-chapter-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.custom-chapter-card .card__header h3 {
+  color: var(--ifm-color-primary);
+}
+
+.custom-chapter-card .card__body {
+  flex-grow: 1;
+}
+
+.custom-chapter-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.custom-chapter-card .card__footer {
+  margin-top: auto;
+}

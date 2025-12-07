@@ -1,0 +1,13 @@
+.text-selection-chat-button {
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.text-selection-chat-button:hover {
+  transform: translateY(-2px) scale(1.05);
+}
+
+.text-selection-chat-button:active {
+  transform: translateY(0) scale(0.98);
+}

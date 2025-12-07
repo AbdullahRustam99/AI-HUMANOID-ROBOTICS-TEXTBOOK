@@ -1,0 +1,66 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import './text-selection-button.css'; /* Import the new CSS for the text selection button */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #5c6ac4;
+  --ifm-color-primary-dark: #4a55a1;
+  --ifm-color-primary-darker: #444d8f;
+  --ifm-color-primary-darkest: #353c70;
+  --ifm-color-primary-light: #6e7dd7;
+  --ifm-color-primary-lighter: #7887d9;
+  --ifm-color-primary-lightest: #94a0e2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #a3b1ff;
+  --ifm-color-primary-dark: #8a9eff;
+  --ifm-color-primary-darker: #7d92ff;
+  --ifm-color-primary-darkest: #5b76ff;
+  --ifm-color-primary-light: #bdcaff;
+  --ifm-color-primary-lighter: #c9d5ff;
+  --ifm-color-primary-lightest: #f1f4ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Professional Navbar Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.navbar__logo {
+  height: 24px;
+}
+
+/* Force visibility of text inside the translate button */
+.translate-button  {
+  background-color: rgb(255, 255, 255) !important;
+  color: black !important;
+  opacity: 1 !important;
+  padding : 10px 20px;
+  border:none;
+  border-radius: 50px;
+  outline : none 
+  
+}
+.translate-button:hover{
+  cursor: pointer;
+}
+/* Ensure the SVG icon is also visible */
+.translate-button svg {
+  stroke: var(--ifm-font-color-base) !important;
+}
